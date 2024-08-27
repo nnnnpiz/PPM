@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ControllerPlayWindows">
+    <Polygon fx:id="hexagon11" fill="#d7d7d7" layoutX="94.0" layoutY="181.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon12" fill="#d7d7d7" layoutX="130.0" layoutY="181.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon13" fill="#d7d7d7" layoutX="166.0" layoutY="181.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon14" fill="#d7d7d7" layoutX="202.0" layoutY="181.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon15" fill="#d7d7d7" layoutX="238.0" layoutY="181.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon21" fill="#d7d7d7" layoutX="113.0" layoutY="212.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon22" fill="#d7d7d7" layoutX="149.0" layoutY="212.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon23" fill="#d7d7d7" layoutX="185.0" layoutY="212.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon24" fill="#d7d7d7" layoutX="221.0" layoutY="212.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon25" fill="#d7d7d7" layoutX="257.0" layoutY="212.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon31" fill="#d7d7d7" layoutX="132.0" layoutY="243.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon32" fill="#d7d7d7" layoutX="168.0" layoutY="243.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon33" fill="#d7d7d7" layoutX="204.0" layoutY="243.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon34" fill="#d7d7d7" layoutX="240.0" layoutY="243.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon35" fill="#d7d7d7" layoutX="276.0" layoutY="243.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon41" fill="#d7d7d7" layoutX="151.0" layoutY="274.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon42" fill="#d7d7d7" layoutX="187.0" layoutY="274.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon43" fill="#d7d7d7" layoutX="223.0" layoutY="274.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon44" fill="#d7d7d7" layoutX="259.0" layoutY="274.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon45" fill="#d7d7d7" layoutX="295.0" layoutY="274.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon51" fill="#d7d7d7" layoutX="170.0" layoutY="305.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon52" fill="#d7d7d7" layoutX="206.0" layoutY="305.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon53" fill="#d7d7d7" layoutX="242.0" layoutY="305.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon54" fill="#d7d7d7" layoutX="278.0" layoutY="305.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Polygon fx:id="hexagon55" fill="#d7d7d7" layoutX="314.0" layoutY="305.0" onMouseClicked="#hexagonPressed"
+             onMouseEntered="#insideHexagon" onMouseExited="#outsideHexagon"
+             points="20, 0, 10, 17.32, -10, 17.32, -20, 0, -10, -17.32, 10, -17.32" rotate="90.0" stroke="#969696"
+             strokeType="INSIDE"/>
+    <Line fx:id="redLine1" endX="104.0" endY="8.79998779296875" fill="#f70202" layoutX="41.0" layoutY="315.0"
+          startX="14.0" startY="-145.1999969482422" stroke="#f80101" strokeWidth="5.0"/>
+    <Line fx:id="redLine2" endX="104.0" endY="8.79998779296875" fill="#f70202" layoutX="247.0" layoutY="311.0"
+          startX="14.0" startY="-145.1999969482422" stroke="#f80101" strokeWidth="5.0"/>
+    <Line fx:id="blueLine2" endX="191.0" endY="-145.20001220703125" fill="#024bf5" layoutX="161.0" layoutY="476.0"
+          startX="-9.0" startY="-145.20001220703125" stroke="#0217f7" strokeWidth="5.0"/>
+    <Line fx:id="blueLine1" endX="191.0" endY="-145.20001220703125" fill="#024bf5" layoutX="63.0" layoutY="301.0"
+          startX="-7.0" startY="-145.20001220703125" stroke="#0217f7" strokeWidth="5.0"/>
+    <Button fx:id="undoButton" layoutX="8.0" layoutY="365.0" mnemonicParsing="false" onMouseClicked="#undoButtonPressed"
+            text="Undo"/>
+    <Button fx:id="goBackBoardButton" layoutX="340.0" layoutY="365.0" mnemonicParsing="false"
+            onMouseClicked="#goBackBoardButtonPressed" text="Voltar"/>
+    <ImageView fitHeight="150.0" fitWidth="316.0" layoutX="45.0" layoutY="32.0" pickOnBounds="true"
+               preserveRatio="true">
+        <Image url="@HexGame.png"/>
+    </ImageView>
+    <Label fx:id="infoLabel" alignment="CENTER" layoutX="63.0" layoutY="361.0" prefHeight="32.0" prefWidth="267.0"
+           textAlignment="CENTER" textFill="#fc0505"/>
+</AnchorPane>

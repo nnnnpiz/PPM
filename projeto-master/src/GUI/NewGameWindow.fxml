@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ControllerPlayWindows">
+    <ImageView fitHeight="150.0" fitWidth="316.0" layoutX="43.0" layoutY="40.0" pickOnBounds="true"
+               preserveRatio="true">
+        <Image url="@HexGame.png"/>
+    </ImageView>
+    <Button fx:id="redButton" layoutX="42.0" layoutY="247.0" mnemonicParsing="false" onMouseClicked="#redButtonPressed"
+            prefHeight="46.0" prefWidth="117.0" text="Vermelho" textFill="#f80101">
+        <font>
+            <Font name="System Bold" size="18.0"/>
+        </font>
+    </Button>
+    <Button fx:id="blueButton" layoutX="240.0" layoutY="247.0" mnemonicParsing="false"
+            onMouseClicked="#blueButtonPressed" prefHeight="46.0" prefWidth="117.0" text="Azul" textFill="#0070c0">
+        <font>
+            <Font name="System Bold" size="18.0"/>
+        </font>
+    </Button>
+    <Button fx:id="goBackButtonNew" layoutX="340.0" layoutY="365.0" mnemonicParsing="false"
+            onMouseClicked="#goBackButtonNewPressed" text="Voltar"/>
+</AnchorPane>
